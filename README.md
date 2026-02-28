@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Dual Core]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Anaan Shaji] - [College Of Engineering]
+- Member 2: [Alphy Aby] - [College Of Engineering]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[This project develops a smart piezoelectric tile that converts footsteps into electrical energy. The generated voltage is measured using an Arduino to detect steps, estimate energy production, and monitor crowd levels. The system displays real-time data such as step count and peak voltage on an LCD, demonstrating a simple approach to energy harvesting in public spaces.]
 
 ### The Problem statement
-[What problem are you solving?]
+[In crowded public places such as railway stations, malls, and college campuses, thousands of footsteps generate mechanical energy every day. This energy is normally wasted.]
 
 ### The Solution
-[How are you solving it?]
+[The solution uses piezoelectric sensors embedded in a tile to generate voltage from human footsteps. An Arduino reads the voltage signal to detect steps and measure the peak voltage produced. The system displays the step count and voltage values on an LCD screen, providing a simple method for monitoring foot traffic and generated voltage in real time.]
 
 ---
 
@@ -30,47 +30,63 @@
 
 ### Technologies/Components Used
 
-**For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: [35mm Piezo discs ,Arduino UNO,LCD I2C display,18650 cell,resistor , capacitor, diodes]
+- Specifications: [35mm Piezo Disc-Generates voltage spikes when pressure is applied.
+   Arduino UNO-Reads sensor input and controls display.16×2 I2C LCD Display-Shows step count and voltage in real time.
+
+]
+- Tools required: [Mini Breadboard,Hookup wires,Jumper wires,Arduino IDE, LCD Library, Soldering Iron]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [Detects footsteps using piezoelectric sensors.]
+- Feature 2: [Measures and displays the maximum voltage generated so far.]
+- Feature 3: [Counts steps and shows the total on an LCD display.]
+- Feature 4: [Works as a simple demonstration of energy harvesting from footsteps.]
 
 ---
 
 ## Implementation
 
-### For Software:
-
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+[35mm Piezo Disc
+
+Generates voltage spikes when pressure is applied.
+
+Arduino UNO
+
+Reads sensor input and controls display.
+
+16×2 I2C LCD Display
+
+Shows step count and voltage in real time.
+
+1N4007 Diode
+
+Converts AC from piezo to DC.
+
+10µF Capacitor
+
+Stores the rectified voltage temporarily.
+
+BC547 Transistor
+
+Can switch a small load like an LED.
+
+18650 Battery
+
+Provides portable 3.7V power supply.
+
+I2C LCD Pins
+
+SDA → A4, SCL → A5, VCC → 5V, GND → GND.
+]
 
 #### Circuit Setup
 [Explain how to set up the circuit]
@@ -78,33 +94,6 @@ List the key features of your project:
 ---
 
 ## Project Documentation
-
-### For Software:
-
-#### Screenshots (Add at least 3)
-
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-#### Diagrams
-
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
 
 ### For Hardware:
 
@@ -118,13 +107,18 @@ List the key features of your project:
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+![Team](<p align="center">
+  <img src="./teamphoto.png" alt="Project Banner" width="100%">
+</p>)
 
 ![Components](Add photo of your components here)
 *List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![Build](<p align="center">
+  <img src="./img.png" alt="Project Banner" width="100%">
+</p>
+)
+
 
 ![Final](Add photo of final product here)
 *Explain the final build*
@@ -133,102 +127,22 @@ List the key features of your project:
 
 ## Additional Documentation
 
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
----
-
-### For Mobile Apps:
-
-#### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
----
-
 ### For Hardware Projects:
 
 #### Bill of Materials (BOM)
 
 | Component | Quantity | Specifications | Price | Link/Source |
 |-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
+| Arduino Uno | 1 | ATmega328P, 16MHz | ₹260 | [Link] |
+| LED | 1| green, 5mm, 20mA | ₹2 each | [Link] |
+| Resistor | 3 | 100kΩ,10kΩ, 330Ω | ₹1 each | [Link] |
+| Mini Breadboard | 1 | 400 points | ₹50 | [Link] |
+| Jumper Wires | 30 | Male-to-Male, Male to female | ₹2 each | [Link] |
+| Piezoelectric Disc | 6|  35mm      |₹15 each| |
+|capacitor|1| 10uf|₹2.5||
+LCD Display|1|16*2 I2C|₹175|
 
-**Total Estimated Cost:** ₹[Amount]
+**Total Estimated Cost:** ₹[850]
 
 #### Assembly Instructions
 
@@ -262,101 +176,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 ---
 
-### For Scripts/CLI Tools:
 
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
----
 
 ## Project Demo
 
@@ -374,19 +194,18 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** [e.g. ChatGPT]
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
+- Example: "AI helped us find the most efficient way to connect and use our components."
+- Example: "For circuit Debugging assistance "
 - Example: "Code review and optimization suggestions"
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
+- 1. Check if this circuit setup will correctly charge the capacitor from the piezo discs.”
+- "Suggest ways to reduce energy loss in the connections and diodes"
+  
+**Percentage of AI-generated code:** [Approximately 30%]
 
 **Human Contributions:**
 - Architecture design and planning
