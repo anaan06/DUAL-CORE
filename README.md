@@ -33,9 +33,7 @@
 **For Hardware:**
 - Main components: [35mm Piezo discs ,Arduino UNO,LCD I2C display,18650 cell,resistor , capacitor, diodes]
 - Specifications: [35mm Piezo Disc-Generates voltage spikes when pressure is applied.
-   Arduino UNO-Reads sensor input and controls display.16×2 I2C LCD Display-Shows step count and voltage in real time.
-
-]
+   Arduino UNO-Reads sensor input and controls display.16×2 I2C LCD Display-Shows step count and voltage in real time.]
 - Tools required: [Mini Breadboard,Hookup wires,Jumper wires,Arduino IDE, LCD Library, Soldering Iron]
 
 ---
@@ -75,10 +73,6 @@ Converts AC from piezo to DC.
 
 Stores the rectified voltage temporarily.
 
-BC547 Transistor
-
-Can switch a small load like an LED.
-
 18650 Battery
 
 Provides portable 3.7V power supply.
@@ -108,7 +102,7 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 #### Build Photos
 
 ![Team](<p align="center">
-  <img src="./teamphoto.png" alt="Project Banner" width="100%">
+  <img src="teamphoto.png" alt="team photo" width="100%">
 </p>)
 
 ![Components](Add photo of your components here)
@@ -140,7 +134,7 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 | Jumper Wires | 30 | Male-to-Male, Male to female | ₹2 each | [Link] |
 | Piezoelectric Disc | 6|  35mm      |₹15 each| |
 |capacitor|1| 10uf|₹2.5||
-LCD Display|1|16*2 I2C|₹175|
+|LCD Display|1|16*2 I2C|₹175|
 
 **Total Estimated Cost:** ₹[850]
 
@@ -197,21 +191,26 @@ If you used AI tools during development, document them here for transparency:
 **Tool Used:** [e.g. ChatGPT]
 
 **Purpose:** [What you used it for]
-- Example: "AI helped us find the most efficient way to connect and use our components."
-- Example: "For circuit Debugging assistance "
-- Example: "Code review and optimization suggestions"
+-  "AI helped us find the most efficient way to connect and use our components."
+-  "For circuit Debugging assistance "
+-  "Code review and optimization suggestions"
+-  Understanding piezoelectric working principle
+-  Drafting presentation scripts
 
 **Key Prompts Used:**
-- 1. Check if this circuit setup will correctly charge the capacitor from the piezo discs.”
+- "Check if this circuit setup will correctly charge the capacitor from the piezo discs.”
 - "Suggest ways to reduce energy loss in the connections and diodes"
+- Modify Arduino code to display actual voltage instead of analog value.
+- How to measure real-time voltage from piezo using Arduino?
   
 **Percentage of AI-generated code:** [Approximately 30%]
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+Designed the system architecture and circuit layout
+Assembled and wired the hardware components
+Developed and modified the Arduino code
+Integrated hardware and software components
+Tested, debugged, and calibrated the system
 
 *Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
@@ -219,9 +218,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [Anaan Shaji]: [Contributed to system architecture planning, assembled and wired the hardware components including the piezo sensor and voltage divider, Implemented Arduino code, supported system integration, and participated in testing, debugging, documentation, and presentation.]
+- [Alphy Aby]: [Contributed to system architecture planning, developed and modified the Arduino code, integrated the LCD display and transistor circuit, assisted in hardware assembly and wiring, and participated in system integration, testing, debugging, documentation, and presentation.]
 
 ---
 
