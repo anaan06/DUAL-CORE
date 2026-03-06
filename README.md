@@ -127,7 +127,7 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 *List out all components shown*
 
 ![Build](<p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
+  <img src="images/build.jpeg" alt="build photo" width="70%">
 </p>
 )
 
