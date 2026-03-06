@@ -132,7 +132,7 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 )
 
 
-![Final](Add photo of final product here)
+![Final](images/finalbuild.jpeg)
 *Explain the final build*
 
 ---
@@ -188,7 +188,7 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 2.Observe the LED and LCD to verify that power is generated and detected.
 
 **Final Assembly:**
-![Final Build](images/final-build.jpg)
+![Final Build](images/finalbuild.jpeg)
 *Caption: Completed project ready for testing*
 
 ---
@@ -208,7 +208,7 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g. ChatGPT]
+**Tool Used:** [ChatGPT]
 
 **Purpose:** [What you used it for]
 -  AI helped us find the most efficient way to connect and use our components
@@ -232,26 +232,12 @@ Developed and modified the Arduino code
 Integrated hardware and software components
 Tested, debugged, and calibrated the system
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
-
----
 
 ## Team Contributions
 
 - [Anaan Shaji]: [Contributed to system architecture planning, assembled and wired the hardware components including the piezo sensor and voltage divider, Implemented Arduino code, supported system integration, and participated in testing, debugging, documentation, and presentation.]
 - [Alphy Aby]: [Contributed to system architecture planning, developed and modified the Arduino code, integrated the LCD display and transistor circuit, assisted in hardware assembly and wiring, and participated in system integration, testing, debugging, documentation, and presentation.]
 
----
 
-## License
-
-This project is licensed under the [LICENSE NAME] License - see the [LICENSE](LICENSE) file for details.
-
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
-
----
 
 Made with ❤️ at TinkerHub
