@@ -111,10 +111,11 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 #### Schematic & Circuit
 
 ![Circuit](images/circuit.jpeg)
-*Add caption explaining connections*
+*Footstep pressure on piezo sensors generates voltage. The voltage is rectified using diodes and filtered by a capacitor, then supplied to the Arduino Uno. The system detects the signal and shows the output on a 16×2 LCD display.*
+
 
 ![Schematic](images/schematic.jpeg)
-*Add caption explaining the schematic*
+*The schematic shows the connection of piezo sensors, rectifier diodes, capacitor, resistors, transistor, and the Arduino Uno. These components work together to detect footsteps and display the result on the 16×2 LCD module.*
 
 #### Build Photos
 
