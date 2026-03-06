@@ -120,7 +120,7 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 #### Build Photos
 
 ![Team](<p align="center">
-  <img src="teamphoto.png" alt="team photo" width="100%">
+  <img src="images/teamphoto.jpeg" alt="team photo" width="100%">
 </p>)
 
 ![Components](Add photo of your components here)
