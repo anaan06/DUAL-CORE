@@ -2,18 +2,16 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [] 🎯
+# [FOOTSTEP POWER GENERATOR] 🎯
 
 ## Basic Details
 
 ### Team Name: [Dual Core]
 
 ### Team Members
-- Member 1: [Anaan Shaji] - [College Of Engineering]
-- Member 2: [Alphy Aby] - [College Of Engineering]
+- Member 1: [Anaan Shaji] - [College Of Engineering Perumon]
+- Member 2: [Alphy Aby] - [College Of Engineering Perumon]
 
-### Hosted Project Link
-[mention your project hosted link here]
 
 ### Project Description
 [This project develops a smart piezoelectric tile that converts footsteps into electrical energy. The generated voltage is measured using an Arduino to detect steps, estimate energy production, and monitor crowd levels. The system displays real-time data such as step count and peak voltage on an LCD, demonstrating a simple approach to energy harvesting in public spaces.]
@@ -83,7 +81,26 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 ]
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+[1. Connect the six piezoelectric discs in series so that their voltage adds up when pressure is applied.
+
+
+2. The output from the piezo discs is connected to a bridge rectifier made using four diodes to convert the AC signal from the discs into DC.
+
+
+3. The rectified output is passed through a capacitor to smooth and store the generated voltage.
+
+
+4. This stored voltage is connected to the battery terminals to store the energy.
+
+
+5. The battery powers the Arduino Uno, which processes the voltage signal.
+
+
+6. An LCD (16×2) is connected to the Arduino using SDA and SCL pins to display the generated power information.
+
+
+7. A transistor and resistors are used to drive an LED indicator, which lights up when power is generated.
+]
 
 ---
 
@@ -144,25 +161,30 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 1. Gather all components listed in the BOM
 2. Check component specifications
 3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
+   
 **Step 2: Build the Power Supply**
 1. Connect the power rails on the breadboard
 2. Connect Arduino 5V to breadboard positive rail
 3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
 
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
+**Step 3: Connect the piezoelectric discs**
+1. Connect the piezo discs in series so the voltage produced by each disc adds together.
+2. Connect the output wires from the discs to the rectifier circuit.
 
-**Step 4: [Continue for all steps...]**
+**Step 4: Rectify and Smooth the Voltage**
+1. Connect four diodes in a bridge rectifier configuration to convert the AC output from the piezo discs into DC.
+2. Add a capacitor across the output to smooth the voltage.
+
+**Step 5: Connect Arduino and Output Components**
+1. Connect the circuit output to the Arduino input pins.
+2. Add the transistor, resistors, and LED as an indicator.
+
+**Step 6: Connect the LCD Display**
+1. Connect the 16×2 LCD module to Arduino using SDA and SCL pins and power it from the rails.
+
+**Step 7: Test the Circuit**
+1. Apply pressure on the piezo discs (footsteps).
+2.Observe the LED and LCD to verify that power is generated and detected.
 
 **Final Assembly:**
 ![Final Build](images/final-build.jpg)
@@ -179,9 +201,6 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
 ---
 
 ## AI Tools Used (Optional - For Transparency Bonus)
@@ -191,17 +210,17 @@ If you used AI tools during development, document them here for transparency:
 **Tool Used:** [e.g. ChatGPT]
 
 **Purpose:** [What you used it for]
--  "AI helped us find the most efficient way to connect and use our components."
--  "For circuit Debugging assistance "
--  "Code review and optimization suggestions"
+-  AI helped us find the most efficient way to connect and use our components
+-  For circuit Debugging assistance 
+-  Code review and optimization suggestions
 -  Understanding piezoelectric working principle
 -  Drafting presentation scripts
 
 **Key Prompts Used:**
 - "Check if this circuit setup will correctly charge the capacitor from the piezo discs.”
 - "Suggest ways to reduce energy loss in the connections and diodes"
-- Modify Arduino code to display actual voltage instead of analog value.
-- How to measure real-time voltage from piezo using Arduino?
+- "Modify Arduino code to display actual voltage instead of analog value."
+- "How to measure real-time voltage from piezo using Arduino?"
   
 **Percentage of AI-generated code:** [Approximately 30%]
 
@@ -225,7 +244,7 @@ Tested, debugged, and calibrated the system
 
 ## License
 
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [LICENSE NAME] License - see the [LICENSE](LICENSE) file for details.
 
 **Common License Options:**
 - MIT License (Permissive, widely used)
