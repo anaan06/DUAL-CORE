@@ -110,10 +110,10 @@ SDA → A4, SCL → A5, VCC → 5V, GND → GND.
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
+![Circuit](images/circuit.jpeg)
 *Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
+![Schematic](images/schematic.jpeg)
 *Add caption explaining the schematic*
 
 #### Build Photos
